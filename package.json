@@ -1,0 +1,26 @@
+{
+  "name": "openclaw-guide-zh",
+  "version": "1.0.0",
+  "description": "OpenClaw 中文完全教程 — 从零搭建你的 AI Agent 多渠道助手",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronyang-ai/openclaw-guide-zh.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronyang-ai/openclaw-guide-zh/issues"
+  },
+  "homepage": "https://github.com/aaronyang-ai/openclaw-guide-zh#readme",
+  "dependencies": {
+    "@astrojs/starlight": "^0.38.2",
+    "astro": "^6.0.8",
+    "sharp": "^0.34.5"
+  }
+}
