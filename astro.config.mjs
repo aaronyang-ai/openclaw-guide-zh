@@ -6,6 +6,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'OpenClaw 中文教程',
+      customCss: ['./src/styles/custom.css'],
       defaultLocale: 'root',
       locales: {
         root: { label: '简体中文', lang: 'zh-CN' },
