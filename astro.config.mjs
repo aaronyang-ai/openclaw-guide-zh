@@ -1,8 +1,12 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { rehypeMermaid } from '@beoe/rehype-mermaid';
 
 export default defineConfig({
   site: 'https://openclaw-guide-zh.pages.dev',
+  markdown: {
+    rehypePlugins: [[rehypeMermaid, { class: 'not-content' }]],
+  },
   integrations: [
     starlight({
       title: 'OpenClaw 中文教程',
