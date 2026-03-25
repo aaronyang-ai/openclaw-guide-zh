@@ -1,7 +1,12 @@
-/* 首页 hero 标题：缩小字号使标题两行排完，避免孤字 */
-[data-page-type="splash"] .hero h1 {
-  font-size: clamp(1.8rem, 4.2vw, 2.6rem) !important;
+[data-page-type="splash"] h1#_top {
+  font-size: 2.2rem !important;
   text-wrap: balance;
   word-break: keep-all;
-  overflow-wrap: normal;
+  line-height: 1.3;
+}
+
+@media (min-width: 768px) {
+  [data-page-type="splash"] h1#_top {
+    font-size: 2.8rem !important;
+  }
 }
