@@ -1,5 +1,7 @@
-/* 首页 hero 标题：平衡换行，避免孤字 */
+/* 首页 hero 标题：缩小字号使标题两行排完，避免孤字 */
 [data-page-type="splash"] .hero h1 {
+  font-size: clamp(1.8rem, 4.2vw, 2.6rem) !important;
   text-wrap: balance;
   word-break: keep-all;
+  overflow-wrap: normal;
 }
