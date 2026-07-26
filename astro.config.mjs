@@ -48,7 +48,6 @@ export default defineConfig({
             { label: '第12章 浏览器控制', slug: 'ch12' },
             { label: '第13章 Nodes移动端', slug: 'ch13' },
             { label: '第14章 安全与运维', slug: 'ch14' },
-            { label: '第18章 上下文工程', slug: 'ch18' },
           ],
         },
         {
